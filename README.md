@@ -40,31 +40,6 @@ Before running the project, ensure you have the following installed:
 
 ---
 
-## Installation and Setup
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/todolist-app.git
-cd todolist-app
-
-todolist/
-├── tasks/                  # Django app for task management
-│   ├── migrations/         # Database migrations
-│   ├── templates/          # HTML templates
-│   ├── admin.py            # Admin configuration
-│   ├── apps.py             # App configuration
-│   ├── forms.py            # Forms for task and user registration
-│   ├── models.py           # Database models
-│   ├── urls.py             # App-specific URLs
-│   ├── views.py            # Views for handling requests
-├── todolist/               # Project configuration
-│   ├── settings.py         # Project settings
-│   ├── urls.py             # Main URLs
-├── manage.py               # Django command-line utility
-├── requirements.txt        # List of dependencies
-
-
 # GitHub Codespaces ♥️ Django
 
 Welcome to your shiny new Codespace running Django! We've got everything fired up and running for you to explore Django.
