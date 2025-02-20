@@ -65,16 +65,6 @@ todolist/
 ├── requirements.txt        # List of dependencies
 
 
-### Notes:
-1. Replace `your-username`, `your.email@example.com`, and other placeholders with your actual details.
-2. Add screenshots of your application in the `screenshots/` folder and update the paths in the `Screenshots` section.
-3. Include a `LICENSE` file if you want to specify the license for your project.
-
-This `README.md` provides a comprehensive guide for users and contributors to understand and use your project. Let me know if you need further assistance!
-
-I don't have the capability to directly edit files in your repository. You can use the following markdown content to update your README.md file:
-
-Markdown
 # GitHub Codespaces ♥️ Django
 
 Welcome to your shiny new Codespace running Django! We've got everything fired up and running for you to explore Django.
@@ -140,3 +130,10 @@ Connect to MySQL with the New Password:
 sh
 mysql -u root -p
 Replace your_new_password with a secure password of your choice.
+
+### Notes:
+1. Replace `your-username`, `your.email@example.com`, and other placeholders with your actual details.
+2. Add screenshots of your application in the `screenshots/` folder and update the paths in the `Screenshots` section.
+3. Include a `LICENSE` file if you want to specify the license for your project.
+
+This `README.md` provides a comprehensive guide for users and contributors to understand and use your project. Let me know if you need further assistance!
