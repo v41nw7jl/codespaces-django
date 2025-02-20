@@ -63,9 +63,10 @@ todolist/
 ├── requirements.txt        # List of dependencies
 
 
+---
 
-## Installation and Setup
-## Installing Dependencies
+**## Installation and Setup
+## Installing Dependencies**
 
 ```python
 pip install -r requirements.txt```
