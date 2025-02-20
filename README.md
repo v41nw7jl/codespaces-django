@@ -65,39 +65,43 @@ todolist/
 
 ---
 
-**## Installation and Setup
-## Installing Dependencies**
+## Installation and Setup
+
+---
+
+## Installing Dependencies
 
 ```python
-pip install -r requirements.txt```
+pip install -r requirements.txt
 
 To Collect Static Files:
 ```Python
-python manage.py collectstatic```
+python manage.py collectstatic
 
 To Run This Application:
-'''Python
-python manage.py runserver'''
+```Python
+python manage.py runserver
 
 Installing MySQL Server
 
 To install and configure MySQL Server in your Codespace, follow these steps:
+
 Update Package Lists:
 
-'''sh
-sudo apt-get update'''
+```sh
+sudo apt-get update
 
 Install MySQL Server:
-'''sh
-sudo apt-get install -y mysql-server'''
+```sh
+sudo apt-get install -y mysql-server
 
 Start MySQL Service:
-'''sh
-sudo service mysql start'''
+```sh
+sudo service mysql start
 
 Set Correct Permissions for MySQL Socket:
 
-sh
+```sh
 sudo chmod 755 /var/run/mysqld
 sudo chmod 666 /var/run/mysqld/mysqld.sock
 Restart MySQL Service:
