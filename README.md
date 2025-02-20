@@ -40,39 +40,35 @@ Before running the project, ensure you have the following installed:
 
 ---
 
-# GitHub Codespaces ♥️ Django
-
-Welcome to your shiny new Codespace running Django! We've got everything fired up and running for you to explore Django.
-
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
-
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and...
-
 ## Installing Dependencies
 
 ```python
-pip install -r requirements.txt
-To Collect Static Files:
-Python
-python manage.py collectstatic
-To Run This Application:
-Python
-python manage.py runserver
-Installing MySQL Server
-To install and configure MySQL Server in your Codespace, follow these steps:
+pip install -r requirements.txt'''
 
+To Collect Static Files:
+'''Python
+python manage.py collectstatic'''
+
+To Run This Application:
+'''Python
+python manage.py runserver'''
+
+Installing MySQL Server
+
+To install and configure MySQL Server in your Codespace, follow these steps:
 Update Package Lists:
 
-sh
-sudo apt-get update
+'''sh
+sudo apt-get update'''
+
 Install MySQL Server:
+'''sh
+sudo apt-get install -y mysql-server'''
 
-sh
-sudo apt-get install -y mysql-server
 Start MySQL Service:
+'''sh
+sudo service mysql start'''
 
-sh
-sudo service mysql start
 Set Correct Permissions for MySQL Socket:
 
 sh
