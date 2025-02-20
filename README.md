@@ -71,3 +71,72 @@ todolist/
 3. Include a `LICENSE` file if you want to specify the license for your project.
 
 This `README.md` provides a comprehensive guide for users and contributors to understand and use your project. Let me know if you need further assistance!
+
+I don't have the capability to directly edit files in your repository. You can use the following markdown content to update your README.md file:
+
+Markdown
+# GitHub Codespaces ♥️ Django
+
+Welcome to your shiny new Codespace running Django! We've got everything fired up and running for you to explore Django.
+
+You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+
+Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and...
+
+## Installing Dependencies
+
+```python
+pip install -r requirements.txt
+To Collect Static Files:
+Python
+python manage.py collectstatic
+To Run This Application:
+Python
+python manage.py runserver
+Installing MySQL Server
+To install and configure MySQL Server in your Codespace, follow these steps:
+
+Update Package Lists:
+
+sh
+sudo apt-get update
+Install MySQL Server:
+
+sh
+sudo apt-get install -y mysql-server
+Start MySQL Service:
+
+sh
+sudo service mysql start
+Set Correct Permissions for MySQL Socket:
+
+sh
+sudo chmod 755 /var/run/mysqld
+sudo chmod 666 /var/run/mysqld/mysqld.sock
+Restart MySQL Service:
+
+sh
+sudo service mysql restart
+Start MySQL in Safe Mode:
+
+sh
+sudo mysqld_safe --skip-grant-tables &
+Connect to MySQL Without Password:
+
+sh
+mysql -u root
+Run the Following Commands in MySQL to Reset the Root Password:
+
+SQL
+FLUSH PRIVILEGES;
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_new_password';
+FLUSH PRIVILEGES;
+Restart MySQL Service:
+
+sh
+sudo service mysql restart
+Connect to MySQL with the New Password:
+
+sh
+mysql -u root -p
+Replace your_new_password with a secure password of your choice.
